@@ -18,5 +18,14 @@
 - `app.js` 主项目入口文件
 - `package.json` 项目配置文件
 
-#### 数据库密码在config/default.json =》db_config 的password
-#### 先 npm install ，再 node app.js 运行服务器
+#### 项目环境
+- 本地环境
+ - Node.js + MySQL
+- 创建数据库
+ - 数据库文件在：db -> mysdb.sql
+ - 创建数据库mydb，可通过新建查询执行mysdb.sql下的SQL语句建立数据库，数据库表
+ - 数据库连接名：root 密码：
+ - 可在config -> default.json 修改
+- 启动项目
+ - 安装依赖： npm install
+ - 启动项目 ：node app.js
